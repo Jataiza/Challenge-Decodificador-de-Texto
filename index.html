@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="folha.css">
+    <link rel="icon" href="img/icone-one.png">
+    <title> Criptografia de Textos</title>
+
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo Alura">
+    </header>
+    <section class="container_a">
+        <div class="codificar">
+            <textarea class="codificar" rows="9" cols="100" placeholder="Digite o seu texto:"></textarea>
+
+            <div class="box_button">
+                <p class="text_button">Somente letras minuscula e sem acento !</p>
+
+                <button type="button" id="btn-Criptografar" onclick="criptografar()">Criptografar</button>
+                <button type="button" id="btn-Descriptografar" onclick="descodificar()">Descriptografar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container_b">
+        <div class="imgmenino">
+            <img src="img/menino.svg" alt="Imagem menino">
+            <h1 class="texto_1">Nenhuma mensagem encontrada</h1>
+            <textarea class="texto_2" rows="5" cols="50"></textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+        </div>
+    </section>
+
+    <footer>
+    Desenvolvido por Jataiza Barboza
+   </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
